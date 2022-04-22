@@ -1,0 +1,30 @@
+﻿@model Concert.Data.Entities.Ticket
+
+<h4>Categoría</h4>
+<hr />
+<dl class="row">
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Name)
+    </dt>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Document)
+    </dt>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Date)
+    </dt>
+    <dt class="col-sm-2">
+        @Html.DisplayNameFor(model => model.Entrance)
+    </dt>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Name)
+    </dd>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Document)
+    </dd>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Date)
+    </dd>
+    <dd class="col-sm-10">
+        @Html.DisplayFor(model => model.Entrance)
+    </dd>
+</dl>
